@@ -1,0 +1,120 @@
+
+.-footernotes {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #C2C2C2;
+}
+
+table.tsample td.tinner {
+	border: 1 solid lightgray;
+    padding: 0px;
+}
+
+table.tsample td table.tinner {
+	border: 0;
+    border-collapse: collapse;
+}
+table.tsample td table.tinner td{
+	border: 0;
+	width: 450;
+}
+
+table.tsample td table.tinner td.abc_A	{color: green;}
+table.tsample td table.tinner td.abc_B	{color: #FF9B5F;}
+table.tsample td table.tinner td.abc_C	{color: red;}
+table.tsample td table.tinner td.abc_X	{color: gray;}
+table.tsample td table.tinner td.abc_G	{color: gray;}
+table.tsample td table.tinner td.abc_\2B  	{color: blue;}
+table.tsample td table.tinner td.abc_-	{color: red;}
+table.tsample td table.tinner td.abc_\3F  	{color: red;}
+
+table.tsample td table.tinner td.A1_BG	{font-weight:bold; background-color: #B6D7A8;}
+table.tsample td table.tinner td.A2_BG	{background-color: #D9EAD3;}
+table.tsample td table.tinner td.B1_BG	{font-weight:bold; background-color: #FFE599;}
+table.tsample td table.tinner td.B2_BG	{background-color: #FFF2CC;}
+table.tsample td table.tinner td.C1_BG	{font-weight:bold; background-color: #EA9999;}
+table.tsample td table.tinner td.C2_BG	{background-color: #F4CCCC;}
+                                 
+table.tsample td table.tinner tr.d1 td		{background-color: #FAFAFA;}
+table.tsample td table.tinner tr.d1:hover td{background-color: #FDFCDC;}
+
+table.tsample td table.tinner tr.d2 td		{background-color: #F2F2F2;}
+table.tsample td table.tinner tr.d2:hover td{background-color: #FDFCDC;}
+
+
+
+table.tsample {
+	border:0;
+    border-collapse: collapse;
+    empty-cells: show;
+    cursor: default;
+}
+
+table.tsample td {
+    font-family: Tahoma;
+    font-size: 12px;
+    border-width: 1px 1px 1px 1px;
+    padding: 4px 4px 4px 4px;
+    border-style: solid solid solid solid;
+    border-color: lightgray lightgray lightgray lightgray;
+    color: black;
+}
+
+table.tsample tr.baslik td {
+    border: 0;
+    border-collapse: collapse;
+	padding-left:0;
+	padding-right:0;
+}
+
+table.tsample tr.bosluk td {
+    border:0;
+    padding: 0;
+	height: 10;
+}
+
+table.tsample tr.d0 td		{font-weight: bold; background-color: lightgray;}
+
+table.tsample tr.d1 td		{background-color: #DDEEEE;}
+table.tsample tr.d1:hover td{background-color: #FDFCDC;}
+
+table.tsample tr.d2 td		{background-color: #EFFFFF;}
+table.tsample tr.d2:hover td{background-color: #FDFCDC;}
+
+table.tsample tr.abc_A  td	{color: green;}
+table.tsample tr.abc_B  td	{color: #FF9B5F;}
+table.tsample tr.abc_C  td	{color: red;}
+table.tsample tr.abc_X  td	{color: gray;}
+table.tsample tr.abc_G  td	{color: gray;}
+table.tsample tr.abc_\2B  td	{color: blue;}
+table.tsample tr.abc_-  td	{color: red;}
+table.tsample tr.abc_\3F  td	{color: red;}
+
+table.tsample tr.tipi_M td	{color: green;}
+table.tsample tr.tipi_S td	{color: red;}
+table.tsample tr.tipi_P td	{color: blue;}
+table.tsample tr.tipi_Y td	{color: gray;}
+
+table.tsample tr td.miktar_\3F 	{background-color: #FDFCDC;}
+table.tsample tr td.miktar_\2B 	{color: #00FF00; background-color: #FDFCDC; font-weight:bold;}
+table.tsample tr td.miktar_-	{color: red; background-color: #FDFCDC;}
+table.tsample tr td.miktar_0	{color: #FF9B5F; background-color: #FDFCDC;}
+
+label.abc_A	{color: green;}
+label.abc_B	{color: #FF9B5F;}
+label.abc_C	{color: red;}
+label.abc_X	{color: gray;}
+label.abc_G	{color: gray;}
+label.abc_\2B 	{color: blue;}
+label.abc_-	{color: red;}
+label.abc_\3F 	{color: red;}
+
+label.tipi_M	{color: green;}
+label.tipi_S	{color: red;}
+label.tipi_P	{color: blue;}
+label.tipi_Y	{color: gray;}
+
+label.miktar_\3F 	{background-color: #FDFCDC;}
+label.miktar_\2B 	{color: #00FF00; background-color: #FDFCDC; font-weight:bold;}
+label.miktar_-	{color: red; background-color: #FDFCDC;}
+label.miktar_0	{color: #FF9B5F; background-color: #FDFCDC;}

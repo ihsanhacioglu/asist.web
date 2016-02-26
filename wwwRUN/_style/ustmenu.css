@@ -1,0 +1,60 @@
+#ustmenu {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#ustmenu ul {
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+}
+
+#ustmenu ul li {
+	float: left;
+	position: relative;
+	margin: 0;
+	margin-right: 15;
+	padding: 0;
+	display: block;
+	-color: #a1cdf2;
+	cursor: default;
+	font: bold 13px/1.4  Arial, sans-serif;
+}
+
+#ustmenu ul li ul {
+	display: none;
+	position: absolute;
+	top: 1em;
+	left: 0;
+	margin: 0;
+	margin-top: 3;
+	width: 200px;
+	background-color: #FFF;
+	border: 1px solid #9CF;
+}
+
+#ustmenu ul li ul li{
+	width: 200px;
+}
+
+#ustmenu ul li:click ul{
+	display: block;
+}
+
+#ustmenu ul li a {
+	display: block;
+	margin: 0 9px;
+	padding: 1px 5px;
+	font: normal 13px/1.4  Arial, sans-serif;
+	-color: #a1cdf2;
+}
+#ustmenu ul li a:hover {
+	background-color: #c7e1f7;
+	color: #39C;
+	-font-weight: bold;
+}
+#ustmenu ul li.divider {
+	height: 10px;
+	margin: 1px 0;
+}
